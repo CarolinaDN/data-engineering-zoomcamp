@@ -12,8 +12,8 @@ Docker allows to put everything an application needs inside a container - sort o
 
 ## Postgres
 * Used for practicing with SQL
-* It’s a general purpose database - for transitions, not for analytics
-* But it’s powerful enough and sometimes also used as a data warehouse - a special database for analytical queries
+* It’s a general purpose database
+* It’s powerful enough and sometimes also used as a data warehouse - a special database for analytical queries
 
 
 ## Terraform
