@@ -1,4 +1,4 @@
-terraform {
+erraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
@@ -31,7 +31,8 @@ resource "google_storage_bucket" "demo-bucket" {
 }
 
 
-
+# https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_dataset
+# check what is required when building
 resource "google_bigquery_dataset" "demo_dataset" {
   dataset_id = var.bq_dataset_name
   location   = var.location
